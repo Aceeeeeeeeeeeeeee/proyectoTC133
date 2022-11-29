@@ -33,9 +33,6 @@ class PaqueteNormal: public Paquete{
         //Declaro atributos de instancia
         int variableX = 100000;
         float peso;
-        float largo;
-        float alto;
-        float ancho;
         Dimension volum;
 
     public:
@@ -45,6 +42,8 @@ class PaqueteNormal: public Paquete{
 
             id = 0;
             recorrido = 0.0;
+            Dimension aux1(0.0 ,0.0 ,0.0);
+            volum = aux1;
             
         }
 
@@ -52,9 +51,8 @@ class PaqueteNormal: public Paquete{
         PaqueteNormal(int i, float rec, float pe, float lar, float alt, float anch):Paquete(i, rec){
 
             peso = pe;
-            largo = lar;
-            alto = alt;
-            ancho = anch;
+            Dimension aux1(lar, anch, alt);
+            volum = aux1;
             
         }
 
@@ -75,8 +73,6 @@ class PaqueteNormal: public Paquete{
 */
 float PaqueteNormal::costo(){
 
-    Dimension x(largo, alto, ancho);
-    volum = x;
     float costoPaqNor;
     costoPaqNor = 50 + ((recorrido * peso * volum.volumen()) / variableX);
     return costoPaqNor;

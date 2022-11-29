@@ -31,7 +31,7 @@ class PaqueteNormal: public Paquete{
     private:
 
         //Declaro atributos de instancia
-        int variableX = 100000;
+        int variableX = 100000; //Divide todas las variables que se multiplican en costo
         float peso;
         Dimension volum;
 

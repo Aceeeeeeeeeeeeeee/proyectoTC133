@@ -24,7 +24,7 @@ correr en linux: "/a.out"
 
 correr en windows: "a.exe"
 
-##Correcciones
+## Correcciones
 
 1. Se realizo la clase paquete ("paquete.h") que es de la cual heredan carta("carta.h") y paqueteNormal(paqueteNormal.h"), pertenece a las sub competencias: "Diseño clases sencillas completas (con todos los atributos y métodos requeridos). Avance 2", "Implemento herencia de manera correcta y util Avance 3"
 2. Se creo la clase Paqueteria("paqueteria.h") la cual esta compuesta por carta("carta.h") y paqueteNormal(paqueteNormal.h"), perenece a las sub competencias: "Utilizo el concepto de composición (o agreagación) en el diagrama de clases. Avance 3", "Impemento composición (o agregación) sieguiendo mi diagrama de clases Avance 3"

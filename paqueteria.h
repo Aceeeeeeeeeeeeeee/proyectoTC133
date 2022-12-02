@@ -273,8 +273,6 @@ float largo, float alto, float ancho){
     PaqueteNormal aux(ipaqNors + 98, recorrido, peso, largo,
     alto, ancho);
     paqNors[ipaqNors] = aux;
-    
-}
 
 
 

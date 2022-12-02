@@ -267,12 +267,123 @@ void Paqueteria::agregaCarta(float recorrido){
  * @return
  */
 void Paqueteria::agregaPaqNor(float recorrido, float peso,
-        float largo, float alto, float ancho){
+float largo, float alto, float ancho){
 
     ipaqNors += 1;
     PaqueteNormal aux(ipaqNors + 98, recorrido, peso, largo,
     alto, ancho);
     paqNors[ipaqNors] = aux;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
